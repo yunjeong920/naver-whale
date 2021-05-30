@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*탭 메뉴만들기*/
+.container {
+  width: 100%;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.container .tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+  background: #272F5B;
+}
+
+.container .tabs li {
+  background: none;
+  color: #888;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .tabs li.current {
+  color: white;
+}
+
+.container .tab-content {
+  display: none;
+}
+
+.container .tab-content.current {
+  display: block;
+}

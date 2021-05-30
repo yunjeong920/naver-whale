@@ -1,3 +1,4 @@
+@charset "UTF-8";
 input[type=checked]#gnbcheck {
   display: none;
   -webkit-appearance: none;
@@ -595,4 +596,472 @@ footer .footer nav ul p:hover {
 
 #sns-wrap .sns .sns-icon a {
   padding: 0 8px;
+}
+
+#tab-1 {
+  width: 100%;
+}
+
+#tab-1 .main {
+  width: 100%;
+  height: 670px;
+  background: url("../img/sub/brand/main1/top_tasking_bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#tab-1 .main .main-text {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tab-1 .main .main-text h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-1 .main .main-text p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-1 .main .main-text .btn {
+  margin-top: 50px;
+}
+
+#tab-1 .main .main-text .btn button {
+  width: 230px;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  background: #15c5aa;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#tab-1 .main .main-text .btn button span {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+#tab-1 .main .main-text .btn button a {
+  color: #fff;
+}
+
+#section-wrap {
+  width: 100%;
+}
+
+#section-wrap .inner {
+  width: 100%;
+  height: 670px;
+  background: #ecedf1;
+}
+
+.content, .content3, .content4, .content5 {
+  width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .text, .content3 .text, .content4 .text, .content5 .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .text h3, .content3 .text h3, .content4 .text h3, .content5 .text h3 {
+  color: #222;
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.content .text h3:before, .content3 .text h3:before, .content4 .text h3:before, .content5 .text h3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/sub/brand/main1/icon_why_tab1_05.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.content .text p, .content3 .text p, .content4 .text p, .content5 .text p {
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+
+.content .text a, .content3 .text a, .content4 .text a, .content5 .text a {
+  display: inline-block;
+  color: #2d68d2;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.content .text a:before, .content3 .text a:before, .content4 .text a:before, .content5 .text a:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  background: url("../img/sub/brand/main1/icon_function_detailgo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.content .text a:hover, .content3 .text a:hover, .content4 .text a:hover, .content5 .text a:hover {
+  text-decoration: underline;
+}
+
+.content .text .icon-wrap, .content3 .text .icon-wrap, .content4 .text .icon-wrap, .content5 .text .icon-wrap {
+  float: left;
+}
+
+.content .text .icon-wrap .icon1, .content3 .text .icon-wrap .icon1, .content4 .text .icon-wrap .icon1, .content5 .text .icon-wrap .icon1 {
+  display: inline-block;
+  width: 120px;
+  height: 76px;
+  background: url("../img/sub/brand/main1/icon_pc.png") no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.content .text .icon-wrap .icon2, .content3 .text .icon-wrap .icon2, .content4 .text .icon-wrap .icon2, .content5 .text .icon-wrap .icon2 {
+  display: inline-block;
+  width: 120px;
+  height: 76px;
+  background: url("../img/sub/brand/main1/icon_m.png") no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.img {
+  width: 50%;
+}
+
+.img img {
+  border-radius: 10px;
+  height: 350px;
+  width: auto;
+}
+
+.inner2 {
+  background: #fff;
+  height: 670px;
+}
+
+.inner2 .content {
+  flex-direction: row-reverse;
+}
+
+.inner2 .content .text {
+  margin-left: 100px;
+}
+
+.inner2 .content .text h3:before {
+  background: url("../img/sub/brand/main1/icon_why_tab1_01.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.inner2 .content .text a {
+  margin-bottom: 20px;
+}
+
+.content4 {
+  flex-direction: row-reverse;
+}
+
+.content4 .text {
+  margin-left: 100px;
+}
+
+.content4 .text h3:before {
+  background: url("../img/sub/brand/main1/icon_why_tab1_03.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.content4 .text a {
+  margin-bottom: 20px;
+}
+
+.inner .content3 .text h3:before {
+  background: url("../img/sub/brand/main1/icon_why_tab1_02.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.inner .content3 .text a {
+  margin-bottom: 20px;
+}
+
+.inner .content5 .text h3:before {
+  background: url("../img/sub/brand/main1/icon_why_tab1_04.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.inner .content5 .text a {
+  margin-bottom: 20px;
+}
+
+#tab-2 {
+  width: 100%;
+}
+
+#tab-2 .main {
+  width: 100%;
+  height: 670px;
+  background: url("../img/sub/brand/main2/top_security_bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#tab-2 .main .main-text {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tab-2 .main .main-text h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-2 .main .main-text p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-2 .main .main-text .btn {
+  margin-top: 50px;
+}
+
+#tab-2 .main .main-text .btn button {
+  width: 230px;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  background: #15c5aa;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#tab-2 .main .main-text .btn button span {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+#tab-2 .main .main-text .btn button a {
+  color: #fff;
+}
+
+#tab-2 .inner {
+  background: #fff;
+}
+
+#tab-2 .inner .content .text h3:before {
+  background: url("../img/sub/brand/main2/icon_why_tab2_01.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-2 .inner .content .img img {
+  width: auto;
+  height: 280px;
+}
+
+#tab-2 .inner2 {
+  background: #ecedf1;
+  height: 670px;
+}
+
+#tab-2 .inner2 .content {
+  flex-direction: row-reverse;
+}
+
+#tab-2 .inner2 .content .text {
+  margin-left: 120px;
+}
+
+#tab-2 .inner2 .content .text h3:before {
+  background: url("../img/sub/brand/main2/icon_why_tab2_02.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-2 .inner2 .content .text a {
+  margin-bottom: 20px;
+}
+
+#tab-2 .inner2 .content .img img {
+  width: 100%;
+  height: 280px;
+}
+
+#tab-2 .content3 .text h3:before {
+  background: url("../img/sub/brand/main2/icon_why_tab2_03.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-2 .content3 .img img {
+  width: 100%;
+  height: 280px;
+}
+
+#tab-2 .content4 .text h3:before {
+  background: url("../img/sub/brand/main2/icon_why_tab2_04.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-2 .content4 .img img {
+  width: 100%;
+  height: 280px;
+}
+
+#tab-3 {
+  width: 100%;
+}
+
+#tab-3 .main {
+  width: 100%;
+  height: 670px;
+  background: url("../img/sub/brand/main3/top_custom_bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#tab-3 .main .main-text {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#tab-3 .main .main-text h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-3 .main .main-text p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#tab-3 .main .main-text .btn {
+  margin-top: 50px;
+}
+
+#tab-3 .main .main-text .btn button {
+  width: 230px;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  background: #15c5aa;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#tab-3 .main .main-text .btn button span {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+#tab-3 .main .main-text .btn button a {
+  color: #fff;
+}
+
+#tab-3 .inner .content .text h3:before {
+  background: url("../img/sub/brand/main3/icon_why_tab3_01.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-3 .inner2 .content .text h3:before {
+  background: url("../img/sub/brand/main3/icon_why_tab3_02.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#tab-3 .content3 .text h3:before {
+  background: url("../img/sub/brand/main3/icon_why_tab3_03.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+/*탭 메뉴만들기*/
+.container {
+  width: 100%;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.container .tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+  background: #272F5B;
+}
+
+.container .tabs li {
+  background: none;
+  color: #888;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .tabs li.current {
+  color: white;
+}
+
+.container .tab-content {
+  display: none;
+}
+
+.container .tab-content.current {
+  display: block;
 }

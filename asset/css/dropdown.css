@@ -120,8 +120,10 @@ label {
   top: 90px;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-bottom: 1px solid #ccc;
+  background-color: white;
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  z-index: 900;
 }
 
 #nav #sub #submenu {
@@ -154,4 +156,25 @@ label {
 #nav #sub #submenu .menu li a:hover {
   text-decoration: underline;
   color: #15c5aa;
+}
+
+.on {
+  display: none;
+  width: 200px;
+  height: 70px;
+  background: url("../img/main/download_btn.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 100%;
+}
+
+.on .on-text {
+  text-align: center;
+  line-height: 70px;
+  padding-left: 55px;
+}
+
+.on .on-text a {
+  color: #fff;
 }

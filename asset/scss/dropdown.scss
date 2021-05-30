@@ -58,13 +58,13 @@ label{display: none;}
     line-height: 50px;
     font-size: 18px;
     font-weight: bold;
-    border: 1px solid #15c5aa;
+    border: 1px solid $maincolor;
     border-radius: 5px;
     a{
-      color: #15c5aa;
+      color: $maincolor;
     }
     &:hover{
-      background: #15c5aa;
+      background: $maincolor;
       a{
         color: #fff;
       }
@@ -91,7 +91,7 @@ label{display: none;}
           font-size: 18px;
           font-weight: 600;
           &:hover{
-            color: #15c5aa;
+            color: $maincolor;
           }
         }
       }
@@ -103,8 +103,10 @@ label{display: none;}
     top: 90px;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    z-index: 900;
     #submenu{
       overflow: hidden;
       width: 1000px;
@@ -126,11 +128,30 @@ label{display: none;}
             font-size: 18px;
             &:hover{
               text-decoration: underline;
-              color: #15c5aa;
+              color: $maincolor;
             }
           }
         }
       }
+    }
+  }
+}
+
+.on{
+  display: none;
+  width: 200px;
+  height: 70px;
+  background: url('../img/main/download_btn.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 100%;
+  .on-text{
+    text-align: center;
+    line-height: 70px;
+    padding-left: 55px;
+    a{
+      color: #fff;
     }
   }
 }

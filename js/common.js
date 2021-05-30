@@ -1,10 +1,3 @@
-// $(document).on("mouseenter", ".gnb", function(){
-//   $(".submenu").slideDown();
-// })
-// $(document).on("mouseleave", ".gnb", function(){
-//   $(".submenu").slideUp();
-// })
-
 $(function(){
   $("#sub").hide();
   $("#main-nav").hover(function(){
@@ -16,3 +9,11 @@ $(function(){
     })
   })
 })
+
+// $(function scrollHandler(){
+//   if($(window).scrollTop() = $("#first").position().top){
+//     $(".on").css("opacity","0");
+//   }else{
+//     $("on").css("opacity","1");
+//   }
+// })

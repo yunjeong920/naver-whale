@@ -1,0 +1,67 @@
+footer {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+footer .footer {
+  width: 100%;
+}
+
+footer .footer .foot-logo img {
+  width: 140px;
+  height: auto;
+}
+
+footer .footer .foot-info {
+  width: 100%;
+}
+
+footer .footer nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer nav ul {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .footer nav ul a {
+  color: #c0c0c0;
+}
+
+footer .footer nav ul p {
+  padding: 5px 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  height: 55px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer nav ul p span {
+  line-height: 55px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+footer .footer nav ul p span img {
+  width: 40px;
+  height: 40px;
+}
+
+footer .footer nav ul p:hover {
+  background: #fff;
+}

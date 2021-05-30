@@ -36,7 +36,7 @@ section{
           color: #222;
         }
         span{
-          color: #15c5aa;
+          color: $maincolor;
         }
         .fs-28{
           padding-top: 20px;
@@ -47,17 +47,22 @@ section{
             width: 230px;
             height: 70px;
             line-height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: none;
             border-radius: 40px;
-            background: #05d6b4;
+            background: $maincolor;
             text-align: center;
             color: #fff;
             font-weight: 600;
             cursor: pointer;
             span{
               padding-left: 15px;
-              padding-top: 10px;
-              margin-top: 20px;
+              padding-top: 20px;
+            }
+            a{
+              color: #fff;
             }
           }
         }
@@ -74,12 +79,12 @@ section{
   }
 }
 
-#second{
+#second, #third, #fourth{
   background: url('../img/main/tasking_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  .second-wrap{
+  .section-wrap{
     max-width: 1440px;
     width: 100%;
     height: 100%;
@@ -93,10 +98,12 @@ section{
       .swiper-wrapper{
         // flex-direction: row;
         .swiper-slide{
+          width: 100%;
+          height: 700px;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          .second-text{
+          .text{
             color: #fff;
             p{
               opacity: 0.7;
@@ -105,9 +112,154 @@ section{
             h4{
               letter-spacing: 0.06em;
               padding: 20px 0 60px 0px;
+              span{
+                background: #fff;
+                color: $maincolor;
+                padding: 5px 5px 0 5px;
+              }
+            }
+            button{
+              border: none;
+              background: none;
+              color: #fff;
+              font-family: 'GmarketSansMedium';
+              position: relative;
+              display: inline-block;
+              padding: 0 6px 12px 6px;
+              cursor: pointer;
+              img{
+                padding-left: 15px;
+                padding-top: 13px;
+              }
+              &:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background-color: #000;
+                -webkit-transform: scaleX(.3);
+                transform: scaleX(.3);
+                opacity: 0;
+                transition: all .3s;
+              }
+              &:hover:before{
+                opacity: 1;
+                background: -webkit-linear-gradient(130deg, rgb(159, 249, 215), rgb(92, 255, 236));
+                background: linear-gradient(130deg, rgb(159, 249, 215), rgb(92, 255, 236));
+                -webkit-transform: scaleX(1);
+                transform: scaleX(1);
+                transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+                transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+              }
+              a{
+                color: #fff;
+              }
+            }//button끝
+          }
+        }
+        .gif{
+          img{
+            position: relative;
+            border-radius: 15px;
+            height: 380px;
+            width: auto;
+          }
+          .icon{
+            position: absolute;
+            right: 0;
+            top: 10%;
+            img{
+              width: 200px;
+              height: 200px;
             }
           }
         }
+      }
+    }
+  }
+}
+
+#third{
+  background: url('../img/main/security_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .section-wrap{
+    .swiper-container{
+      .swiper-wrapper{
+        .swiper-slide{
+          .text{
+            h4{
+              span{
+                color: #058dcc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#fourth{
+  background: url('../img/main/interface_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .section-wrap{
+    .swiper-container{
+      .swiper-wrapper{
+        .swiper-slide{
+          .text{
+            h4{
+              span{
+                color: #454ccd;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#five{
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .five-gif{
+
+  }
+  .btn{
+    margin-top: 50px;
+    button{
+      width: 230px;
+      height: 70px;
+      line-height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      border-radius: 40px;
+      background: $maincolor;
+      text-align: center;
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+      span{
+        padding-left: 15px;
+        padding-top: 20px;
+      }
+      a{
+        color: #fff;
       }
     }
   }

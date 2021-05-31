@@ -1067,3 +1067,444 @@ footer .footer nav ul p:hover {
 }
 
 /*로딩페이지*/
+.loading-logo {
+  position: fixed;
+  height: 90px;
+  line-height: 90px;
+  margin-left: 100px;
+}
+
+.loading-logo img {
+  width: 200px;
+  height: auto;
+}
+
+#wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(154deg, #5adcf5, #d3f6ff);
+  background: linear-gradient(154deg, #5adcf5, #d3f6ff);
+}
+
+#wrap #spinner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+}
+
+#wrap #spinner p {
+  z-index: 100;
+}
+
+#wrap #spinner div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid white;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+#wrap #spinner div:nth-of-type(1) {
+  animation: spinner1 3s ease-out 0s infinite;
+}
+
+#wrap #spinner div:nth-of-type(2) {
+  animation: spinner2 3s ease-out 1s infinite;
+}
+
+#wrap #spinner div:nth-of-type(3) {
+  animation: spinner3 3s ease-out 2s infinite;
+}
+
+@keyframes spinner1 {
+  from {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes spinner2 {
+  from {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes spinner3 {
+  from {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.guide-wrap {
+  width: 100%;
+}
+
+.guide-main {
+  width: 100%;
+  height: 450px;
+  background: url("../img/sub/guide/WhatsNEW_bg.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.guide-main .text {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guide-main .text h1 {
+  padding-bottom: 20px;
+}
+
+.guide-main .text p {
+  opacity: 0.7;
+}
+
+.up-wrap {
+  width: 100%;
+  padding: 60px;
+}
+
+.up-wrap .update {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.up-wrap .update .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.up-wrap .update .text h3 {
+  color: #222;
+}
+
+.up-wrap .update .text p {
+  color: #222;
+}
+
+.update-box {
+  width: 100%;
+  height: 300px;
+}
+
+.update-box .box {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.update-box .box ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-box .box ul li {
+  width: 400px;
+  height: 160px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.update-box .box ul li .inner {
+  display: flex;
+  align-items: center;
+}
+
+.update-box .box ul li .inner .iconbg {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-box .box ul li .inner .iconbg .icon {
+  width: 100px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.update-box .box ul li .inner .iconbg span {
+  color: #fff;
+}
+
+.update-box .box ul li .inner .bgone {
+  background: #05c3a7;
+}
+
+.update-box .box ul li .inner .bgtwo {
+  background: #2d68d2;
+}
+
+.update-box .box ul li .inner .bgthree {
+  background: #06a0fe;
+}
+
+.update-box .box ul li .inner .text {
+  margin-left: 30px;
+}
+
+.update-box .box ul li .inner .text p {
+  color: #222;
+  margin-bottom: 50px;
+}
+
+.update-box .box ul li .inner .text p a {
+  color: #222;
+}
+
+.update-box .box ul li .inner .text span {
+  display: block;
+  padding: 0 0 0 25px;
+  color: #939598;
+  background: url("../img/sub/guide/clock.png") no-repeat center left;
+}
+
+.news-wrap {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.news-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-title h3 {
+  color: #222;
+}
+
+.news-title p {
+  color: #222;
+}
+
+.news-text {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.news-text .text-left li, .news-text .text-right li {
+  height: 50px;
+  line-height: 50px;
+}
+
+.news-text .text-left a, .news-text .text-right a {
+  width: 100%;
+}
+
+.news-text .text-left a .fs-18, .news-text .text-right a .fs-18 {
+  overflow: hidden;
+  display: inline-block;
+  width: 80%;
+  color: #333;
+  letter-spacing: -0.025rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.news-text .text-left a .fs-18:hover, .news-text .text-right a .fs-18:hover {
+  text-decoration: underline;
+}
+
+.news-text .day {
+  width: 29%;
+  text-align: right;
+}
+
+.news-text .left {
+  display: flex;
+}
+
+.news-text .right {
+  display: flex;
+}
+
+/*가이드2*/
+.help-main {
+  width: 100%;
+  height: 450px;
+  background: url("../img/sub/guide/main_bg_min.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.help-main .help-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.help-list {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  background: #fff;
+}
+
+.help-list .list {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.help-list .list li {
+  width: 25%;
+  height: 200px;
+  text-align: center;
+}
+
+.help-list .list li img {
+  width: 100px;
+  height: auto;
+}
+
+.help-list .list li p {
+  color: #333;
+}
+
+.help-list .list li p:hover {
+  color: #15c5aa;
+}
+
+.help-qna {
+  width: 100%;
+  padding: 60px;
+  background: #f8f9fa;
+}
+
+.help-qna h3 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 60px;
+}
+
+.help-qna .qna-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+}
+
+.help-qna .qna-wrap .left {
+  padding-right: 50px;
+  border-right: 1px solid #ddd;
+}
+
+.help-qna li span {
+  color: #15c5aa;
+  padding-right: 20px;
+}
+
+.help-qna li a {
+  font-family: 'GmarketSansLight';
+  font-weight: bold;
+  color: #333;
+}
+
+.help-qna li a:hover {
+  text-decoration: underline;
+}
+
+.more-wrap {
+  width: 100%;
+  height: 500px;
+  background: #fff;
+}
+
+.more-wrap .more {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-wrap .more .img {
+  display: flex;
+  justify-content: center;
+}
+
+.more-wrap .more .img img {
+  width: 130px;
+  height: auto;
+}
+
+.more-wrap .more .text {
+  width: 600px;
+}
+
+.more-wrap .more .text .fs-24 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.more-wrap .more .text .fs-18 {
+  margin-bottom: 20px;
+}
+
+.more-wrap .more .text button {
+  border: none;
+  background: #15c5aa;
+  width: 120px;
+  height: 35px;
+  border-radius: 25px;
+}
+
+.more-wrap .more .text button a {
+  color: #fff;
+}

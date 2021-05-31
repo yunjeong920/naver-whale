@@ -1,1 +1,83 @@
-/*로딩페이지*/ 
+/*로딩페이지*/
+.loading-logo{
+  position: fixed;
+  height: 90px;
+  line-height: 90px;
+  margin-left: 100px;
+  img{
+    width: 200px;
+    height: auto;
+  }
+}
+
+#wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(154deg, rgb(90, 220, 245), rgb(211, 246, 255));
+  background: linear-gradient(154deg, rgb(90, 220, 245), rgb(211, 246, 255));
+  #spinner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    p{
+      z-index: 100;
+    }
+    div{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 3px solid rgba(255, 255, 255, 1);
+      border-radius: 100%;
+      opacity: 0;
+      &:nth-of-type(1){
+        animation: spinner1 3s ease-out 0s infinite;
+      }
+      &:nth-of-type(2){
+        animation: spinner2 3s ease-out 1s infinite;
+      }
+      &:nth-of-type(3){
+        animation: spinner3 3s ease-out 2s infinite;
+      }
+    }
+  }
+}
+
+@keyframes spinner1 {
+  from{
+  transform: scale(0.8);
+  opacity: 1;
+}
+  to{
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes spinner2 {
+  from{
+    transform: scale( 0.8 );
+    opacity: 1;
+  }
+  to{
+    transform: scale( 1.6 );
+    opacity: 0;
+  }
+}
+
+@keyframes spinner3 {
+  from{
+    transform: scale( 0.8 );
+    opacity: 1;
+  }
+  to{
+    transform: scale( 1.6 );
+    opacity: 0;
+  }
+}

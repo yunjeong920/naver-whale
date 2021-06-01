@@ -199,9 +199,10 @@
     .menu_wrap{
       background: #DCF4FF;
       height: 100vh;
-      padding: 25px 50px;
+      padding: 0px 50px;
       li{
-        height: 70px;
+        height: 60px;
+        line-height: 60px;
         a{
           color: #333;
           font-size: 20px;
@@ -230,6 +231,30 @@
           &:hover{
             color: #fff;
             background: $maincolor;
+          }
+        }
+      }
+      .more1,.more2,.more3,.more4,.more5{
+        display: table;
+        ul{
+          text-align: left;
+          li{
+            height: 30px;
+            line-height: 30px;
+            .fs-16{
+              color: #666;
+              height: 30px;
+              font-size: 16px;
+            }
+          }
+        }
+        button{
+          border: none;
+          background: none;
+          margin-left: 15px;
+          img{
+            width: 20px;
+            height: auto;
           }
         }
       }

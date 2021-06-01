@@ -28,6 +28,57 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $("#spreadBtn01").click(function() {
+    if ($("#hiddenList01").is(":visible")) {
+      $("#hiddenList01").slideUp();
+    } else {
+      $("#hiddenList01").slideDown();
+    }
+  });
+});
+
+$(document).ready(function() {
+  $("#spreadBtn02").click(function() {
+    if ($("#hiddenList02").is(":visible")) {
+      $("#hiddenList02").slideUp();
+    } else {
+      $("#hiddenList02").slideDown();
+    }
+  });
+});
+
+$(document).ready(function() {
+  $("#spreadBtn03").click(function() {
+    if ($("#hiddenList03").is(":visible")) {
+      $("#hiddenList03").slideUp();
+    } else {
+      $("#hiddenList03").slideDown();
+    }
+  });
+});
+
+$(document).ready(function() {
+  $("#spreadBtn04").click(function() {
+    if ($("#hiddenList04").is(":visible")) {
+      $("#hiddenList04").slideUp();
+    } else {
+      $("#hiddenList04").slideDown();
+    }
+  });
+});
+
+$(document).ready(function() {
+  $("#spreadBtn05").click(function() {
+    if ($("#hiddenList05").is(":visible")) {
+      $("#hiddenList05").slideUp();
+    } else {
+      $("#hiddenList05").slideDown();
+    }
+  });
+});
+
+
 // 탭메뉴
 $(function(){
   $("ul.tabs li").click(function(){

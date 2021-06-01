@@ -230,11 +230,12 @@
 .mheader-wrap .sidebar_menu .menu_wrap {
   background: #DCF4FF;
   height: 100vh;
-  padding: 25px 50px;
+  padding: 0px 50px;
 }
 
 .mheader-wrap .sidebar_menu .menu_wrap li {
-  height: 70px;
+  height: 60px;
+  line-height: 60px;
 }
 
 .mheader-wrap .sidebar_menu .menu_wrap li a {
@@ -270,6 +271,36 @@
 .mheader-wrap .sidebar_menu .menu_wrap .menu-img .m-menubtn:hover {
   color: #fff;
   background: #15c5aa;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1, .mheader-wrap .sidebar_menu .menu_wrap .more2, .mheader-wrap .sidebar_menu .menu_wrap .more3, .mheader-wrap .sidebar_menu .menu_wrap .more4, .mheader-wrap .sidebar_menu .menu_wrap .more5 {
+  display: table;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1 ul, .mheader-wrap .sidebar_menu .menu_wrap .more2 ul, .mheader-wrap .sidebar_menu .menu_wrap .more3 ul, .mheader-wrap .sidebar_menu .menu_wrap .more4 ul, .mheader-wrap .sidebar_menu .menu_wrap .more5 ul {
+  text-align: left;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1 ul li, .mheader-wrap .sidebar_menu .menu_wrap .more2 ul li, .mheader-wrap .sidebar_menu .menu_wrap .more3 ul li, .mheader-wrap .sidebar_menu .menu_wrap .more4 ul li, .mheader-wrap .sidebar_menu .menu_wrap .more5 ul li {
+  height: 30px;
+  line-height: 30px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1 ul li .fs-16, .mheader-wrap .sidebar_menu .menu_wrap .more2 ul li .fs-16, .mheader-wrap .sidebar_menu .menu_wrap .more3 ul li .fs-16, .mheader-wrap .sidebar_menu .menu_wrap .more4 ul li .fs-16, .mheader-wrap .sidebar_menu .menu_wrap .more5 ul li .fs-16 {
+  color: #666;
+  height: 30px;
+  font-size: 16px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1 button, .mheader-wrap .sidebar_menu .menu_wrap .more2 button, .mheader-wrap .sidebar_menu .menu_wrap .more3 button, .mheader-wrap .sidebar_menu .menu_wrap .more4 button, .mheader-wrap .sidebar_menu .menu_wrap .more5 button {
+  border: none;
+  background: none;
+  margin-left: 15px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .more1 button img, .mheader-wrap .sidebar_menu .menu_wrap .more2 button img, .mheader-wrap .sidebar_menu .menu_wrap .more3 button img, .mheader-wrap .sidebar_menu .menu_wrap .more4 button img, .mheader-wrap .sidebar_menu .menu_wrap .more5 button img {
+  width: 20px;
+  height: auto;
 }
 
 .pcnav {

@@ -9,6 +9,15 @@ $(function(){
     })
   })
 })
+// 
+// $(function(){
+//   var windowWidth = $(window).width();
+//   $(window).resize(function(){
+//     if( windowWidth <= 1200px ){
+//
+//     }
+//   })
+// })
 
 // $(function scrollHandler(){
 //   if($(window).scrollTop() = $("#first").position().top){
@@ -18,6 +27,7 @@ $(function(){
 //   }
 // })
 
+// 탭메뉴
 $(function(){
   $("ul.tabs li").click(function(){
     var tab_id = $(this).attr("data-tab");

@@ -202,12 +202,12 @@
 
 .mheader-wrap .sidebar_menu {
   display: none;
-  width: 30%;
+  width: 40%;
   height: 100%;
   background: #DCF4FF;
   position: absolute;
   top: 0;
-  right: -30%;
+  right: -40%;
 }
 
 .mheader-wrap .sidebar_menu .close_btn {

@@ -9,23 +9,24 @@ $(function(){
     })
   })
 })
-// 
-// $(function(){
-//   var windowWidth = $(window).width();
-//   $(window).resize(function(){
-//     if( windowWidth <= 1200px ){
-//
-//     }
-//   })
-// })
 
-// $(function scrollHandler(){
-//   if($(window).scrollTop() = $("#first").position().top){
-//     $(".on").css("opacity","0");
-//   }else{
-//     $("on").css("opacity","1");
-//   }
-// })
+$(document).ready(function() {
+
+  $('.menu_btn>a').on('click', function() {
+    $('.menu_bg').show();
+    $('.sidebar_menu').show().animate({
+      right: 0
+    });
+  });
+  $('.close_btn>a').on('click', function() {
+    $('.menu_bg').hide();
+    $('.sidebar_menu').animate({
+      right: '-' + 50 + '%'
+    }, function() {
+      $('.sidebar_menu').hide();
+    });
+  });
+});
 
 // 탭메뉴
 $(function(){

@@ -7,7 +7,6 @@
   height: 450px;
   background: url('../img/sub/guide/WhatsNEW_bg.png') no-repeat;
   background-position: center center;
-  background-size: contain;
   .text{
     max-width: 1440px;
     height: 100%;
@@ -182,7 +181,7 @@
 
 .help-main{
   width: 100%;
-  height: 450px;
+  height: 400px;
   background: url('../img/sub/guide/main_bg_min.jpg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -190,6 +189,7 @@
   .help-text{
     width: 100%;
     height: 100%;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;

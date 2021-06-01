@@ -1,17 +1,4 @@
 @charset "UTF-8";
-input[type=checked]#gnbcheck {
-  display: none;
-  -webkit-appearance: none;
-}
-
-input {
-  display: none;
-}
-
-label {
-  display: none;
-}
-
 .header-wrap {
   position: fixed;
   display: flex;
@@ -159,39 +146,153 @@ label {
   color: #15c5aa;
 }
 
-.on {
-  display: none;
+/*모바일*/
+.mheader-wrap {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  z-index: 90;
+}
+
+.mheader-wrap .mheader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.mheader-wrap .mheader .logo {
+  margin-left: 50px;
+}
+
+.mheader-wrap .mheader .logo img {
   width: 200px;
-  height: 70px;
-  background: url("../img/main/download_btn.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: auto;
+}
+
+.mheader-wrap .mheader .menu_btn {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.mheader-wrap .mheader .menu_btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.mheader-wrap .menu_bg {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 100%;
+  top: 0;
+  display: none;
 }
 
-.on .on-text {
-  text-align: center;
-  line-height: 70px;
-  padding-left: 55px;
+.mheader-wrap .sidebar_menu {
+  display: none;
+  width: 30%;
+  height: 100%;
+  background: #DCF4FF;
+  position: absolute;
+  top: 0;
+  right: -30%;
 }
 
-.on .on-text a {
+.mheader-wrap .sidebar_menu .close_btn {
+  background: #DCF4FF;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.mheader-wrap .sidebar_menu .close_btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.mheader-wrap .sidebar_menu .close_btn > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap {
+  background: #DCF4FF;
+  height: 100vh;
+  padding: 25px 50px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap li {
+  height: 70px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap li a {
+  color: #333;
+  font-size: 20px;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap li a:hover {
+  text-decoration: underline;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .menu-img {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .menu-img .m-menubtn {
+  border: none;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  background: none;
+  border: 1.5px solid #15c5aa;
+  border-radius: 5px;
+  color: #15c5aa;
+  font-family: "GmarketSansMedium";
+}
+
+.mheader-wrap .sidebar_menu .menu_wrap .menu-img .m-menubtn:hover {
   color: #fff;
+  background: #15c5aa;
 }
 
 .pcnav {
+  display: block;
+}
+
+.mobile {
   display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .pcnav {
+    display: block;
+  }
+  .mobile {
+    display: block;
+  }
 }
 
 .all-wrap {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-}
-
-.mobile {
-  display: none;
 }
 
 section {
@@ -1128,6 +1229,13 @@ footer .footer nav ul p:hover {
   animation: spinner3 3s ease-out 2s infinite;
 }
 
+#wrap #spinner span {
+  color: #222;
+  position: absolute;
+  margin-top: 350px;
+  font-weight: bold;
+}
+
 @keyframes spinner1 {
   from {
     transform: scale(0.8);
@@ -1170,7 +1278,6 @@ footer .footer nav ul p:hover {
   height: 450px;
   background: url("../img/sub/guide/WhatsNEW_bg.png") no-repeat;
   background-position: center center;
-  background-size: contain;
 }
 
 .guide-main .text {
@@ -1372,7 +1479,7 @@ footer .footer nav ul p:hover {
 /*가이드2*/
 .help-main {
   width: 100%;
-  height: 450px;
+  height: 400px;
   background: url("../img/sub/guide/main_bg_min.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1382,6 +1489,7 @@ footer .footer nav ul p:hover {
 .help-main .help-text {
   width: 100%;
   height: 100%;
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;

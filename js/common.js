@@ -1,14 +1,24 @@
 $(function(){
   $("#sub").hide();
-  $("#main-nav").hover(function(){
-    $(this).parent().find('#sub').slideDown();
-    $(this).parent().hover(function(){
-
-    },function(){
-      $(this).parent().find("#sub").slideUp(900);
+  $("#main-nav").mouseenter(function(){
+    let parentElem = $(this).parent();
+    let subElem = $(this).parent().find('#sub');
+    subElem.stop();
+    subElem.slideDown();
+    parentElem.mouseleave(function(){
+      subElem.stop();
+      subElem.slideUp(900);
     })
   })
-})
+
+  // $("#main-nav,#sub").mouseenter(function(){
+  //   $("#sub").stop();
+  //   $("#sub").slideDown();
+  // }).mouseleave(function(){
+  //   $("#sub").stop();
+  //   $("#sub").slideUp(900);
+  // });
+});
 
 $(document).ready(function() {
 

@@ -36,6 +36,10 @@
   z-index: 100;
 }
 
+#wrap #spinner p img {
+  margin-top: 5.2px;
+}
+
 #wrap #spinner div {
   position: absolute;
   width: 100%;

@@ -231,6 +231,8 @@
       }
       .more1,.more2,.more3,.more4,.more5{
         display: table;
+        width: 100%;
+        border-bottom: 1px solid #fff;
         ul{
           text-align: left;
           li{

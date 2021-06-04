@@ -1,0 +1,9 @@
+.footer-wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-wrap .footer-info .info1 {
+  display: flex;
+  justify-content: space-around;
+}

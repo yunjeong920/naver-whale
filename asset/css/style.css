@@ -270,6 +270,8 @@
 
 .mheader-wrap .sidebar_menu .menu_wrap .more1, .mheader-wrap .sidebar_menu .menu_wrap .more2, .mheader-wrap .sidebar_menu .menu_wrap .more3, .mheader-wrap .sidebar_menu .menu_wrap .more4, .mheader-wrap .sidebar_menu .menu_wrap .more5 {
   display: table;
+  width: 100%;
+  border-bottom: 1px solid #fff;
 }
 
 .mheader-wrap .sidebar_menu .menu_wrap .more1 ul, .mheader-wrap .sidebar_menu .menu_wrap .more2 ul, .mheader-wrap .sidebar_menu .menu_wrap .more3 ul, .mheader-wrap .sidebar_menu .menu_wrap .more4 ul, .mheader-wrap .sidebar_menu .menu_wrap .more5 ul {
@@ -1237,6 +1239,10 @@ footer .footer nav ul p:hover {
   z-index: 100;
 }
 
+#wrap #spinner p img {
+  margin-top: 5.2px;
+}
+
 #wrap #spinner div {
   position: absolute;
   width: 100%;
@@ -1648,4 +1654,77 @@ footer .footer nav ul p:hover {
 
 .more-wrap .more .text button a {
   color: #fff;
+}
+
+.footer-wrap {
+  width: 100%;
+}
+
+.footer-wrap .footer-info {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-wrap .footer-info .info1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: "GmarketSansLight";
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer-wrap .footer-info .info1 h6 {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.footer-wrap .footer-info .info1 li {
+  line-height: 25px;
+}
+
+.footer-wrap .foot2-wrap {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .info2 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .info2 li {
+  height: 20px;
+  line-height: 20px;
+  padding-right: 10px;
+  color: #666;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .foot-icon {
+  display: flex;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .foot-icon .foot-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 15px;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .foot-icon .foot-txt .fs-12 {
+  color: #777;
+}
+
+.footer-wrap .foot2-wrap .foot-info2 .foot-icon .footimg img {
+  width: 38px;
+  height: 38px;
 }

@@ -11,23 +11,26 @@ section{
 }
 
 #first{
+  position: relative;
   background: url('../img/main/top_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   .first-wrap{
-    width: 1440px;
+    max-width: 1440px;
     height: 100%;
     margin: 0 auto;
+    padding: 0 50px;
+      background-image: url('../img/main/top_rightimg_bg.png');
+      background-repeat: no-repeat;
+      background-position: right center;
     .first-box{
       max-width: 1440px;
       height: 100%;
       display: flex;
       flex-wrap: nowrap;
       align-items: center;
-      justify-content: center;
       .left{
-        flex: 50%;
         h1, p{
           color: #222;
         }
@@ -63,14 +66,6 @@ section{
           }
         }
       }
-      .right{
-        width: 70%;
-        height: 70%;
-        background: url('../img/main/top_rightimg_bg.png');
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        background-size: contain;
-      }
     }
   }
 }
@@ -100,7 +95,10 @@ section{
           justify-content: space-between;
           align-items: center;
           .text{
+            max-width: 500px;
             color: #fff;
+            margin-left: 50px;
+            white-space: nowrap;
             p{
               opacity: 0.7;
               font-weight: 500;
@@ -156,21 +154,24 @@ section{
               }
             }//button끝
           }
-        }
-        .gif{
-          img{
+          .gif{
+            min-width: 400px;
             position: relative;
-            border-radius: 15px;
-            height: 380px;
-            width: auto;
-          }
-          .icon{
-            position: absolute;
-            right: 0;
-            top: 10%;
+            padding: 40px;
+            margin-right: 50px;
             img{
-              width: 200px;
-              height: 200px;
+              border-radius: 15px;
+              height: auto;
+              width: 100%;
+            }
+            .icon{
+              position: absolute;
+              right: 5%;
+              top: 0;
+              img{
+                width: 200px;
+                height: 200px;
+              }
             }
           }
         }

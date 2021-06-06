@@ -64,17 +64,17 @@
 }
 
 #nav{
-  width: 800px;
+  width: 750px;
   #main-nav{
     background-color: #fff;
     height: 90px;
     line-height: 90px;
     ul{
       overflow: hidden;
-      width: 800px;
+      width: 750px;
       margin: 0 auto;
       li{
-        width: 160px;
+        width: 150px;
         text-align: center;
         float: left;
         a{
@@ -98,7 +98,7 @@
     z-index: 900;
     #submenu{
       overflow: hidden;
-      width: 800px;
+      width: 750px;
       text-align: center;
       margin: 0 auto;
       padding-top: 15px;
@@ -107,7 +107,7 @@
       align-items: baseline;
       justify-content: space-around;
       .menu{
-        width: 200px;
+        width: 150px;
         float: left;
         li{
           padding-bottom: 8px;
@@ -165,8 +165,9 @@
   }
   .menu_bg{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
+    background: rgba(0, 0, 0, 0.55);
     top: 0;
     display: none;
   }
@@ -276,5 +277,19 @@
   }
   .mobile{
     display: block;
+  }
+}
+
+@media screen and ( max-width: 520px ) {
+  .mheader-wrap{
+    .sidebar_menu{
+      display: none;
+      width: 65%;
+      height: 100%;
+      background: #DCF4FF;
+      position: absolute;
+      top: 0;
+      right: -65%;
+    }
   }
 }

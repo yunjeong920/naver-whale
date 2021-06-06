@@ -1,6 +1,5 @@
 $(function(){
   let oneswiper = new Swiper(".firstSwiper", {
-    spaceBetween: 30,
     centerdSlides: true,
     loop: true,
     autoplay: {

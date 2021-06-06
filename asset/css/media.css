@@ -1,0 +1,74 @@
+@media screen and (max-width: 1200px) {
+  #first .first-wrap {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-position: right center;
+    background-size: 60% auto;
+  }
+  #first .first-wrap .first-box {
+    max-width: 1200px;
+  }
+  #second .section-wrap, #third .section-wrap, #fourth .section-wrap {
+    max-width: 1200px;
+    flex-wrap: nowrap;
+    padding: 30px;
+  }
+  #second .section-wrap .swiper-container .swiper-wrapper .swiper-slide .text, #third .section-wrap .swiper-container .swiper-wrapper .swiper-slide .text, #fourth .section-wrap .swiper-container .swiper-wrapper .swiper-slide .text {
+    width: 50%;
+  }
+  #second .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif img, #third .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif img, #fourth .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif img {
+    width: 100%;
+    height: auto;
+  }
+  #second .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon, #third .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon, #fourth .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon {
+    top: 20%;
+    right: 30px;
+  }
+  #second .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon img, #third .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon img, #fourth .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif .icon img {
+    width: 130px;
+    height: 130px;
+  }
+  #five .five-gif img {
+    width: 700px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .first {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/main/top_bg_m.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .first .first-wrap {
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../img/main/top_rightimg_bg_m.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .first .first-wrap .first-box {
+    height: 60%;
+  }
+  .first .first-wrap .first-box .left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .first .first-wrap .first-box .left h1, .first .first-wrap .first-box .left p {
+    color: #222;
+  }
+}

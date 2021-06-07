@@ -1,16 +1,3 @@
-input[type=checked]#gnbcheck {
-  display: none;
-  -webkit-appearance: none;
-}
-
-input {
-  display: none;
-}
-
-label {
-  display: none;
-}
-
 .header-wrap {
   position: fixed;
   display: flex;

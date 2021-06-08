@@ -30,7 +30,11 @@ section{
     .first-box{
       max-width: 1440px;
       height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-lines: single;
+      -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
       align-items: center;
       .left{
@@ -52,8 +56,14 @@ section{
             width: 230px;
             height: 70px;
             line-height: 70px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             border: none;
             border-radius: 40px;
@@ -85,9 +95,17 @@ section{
     max-width: 1440px;
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin: 0 auto;
     .swiper-container{
@@ -97,8 +115,14 @@ section{
         .swiper-slide{
           width: 100%;
           height: 700px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           .text{
             max-width: 500px;
@@ -234,9 +258,17 @@ section{
   width: 100%;
   height: 50vh;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   .five-gif{
 
@@ -247,8 +279,14 @@ section{
       width: 230px;
       height: 70px;
       line-height: 70px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
       border: none;
       border-radius: 40px;

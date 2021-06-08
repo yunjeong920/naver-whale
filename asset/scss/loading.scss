@@ -3,7 +3,7 @@
   position: fixed;
   height: 90px;
   line-height: 90px;
-  margin-left: 100px;
+  margin-left: 50px;
   img{
     width: 200px;
     height: auto;
@@ -11,8 +11,14 @@
 }
 
 #wrap{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -20,9 +26,17 @@
   background: linear-gradient(154deg, rgb(90, 220, 245), rgb(211, 246, 255));
   #spinner{
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 150px;
     height: 150px;

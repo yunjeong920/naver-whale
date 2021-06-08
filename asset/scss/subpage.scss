@@ -11,9 +11,17 @@
     max-width: 1440px;
     margin: 0 auto;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
     .main-text1 {
@@ -95,8 +103,14 @@
       width: 1440px;
       height: 100%;
       margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
 
       h1 {
@@ -116,8 +130,14 @@
           width: 230px;
           height: 70px;
           line-height: 70px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           border: none;
           border-radius: 40px;
@@ -158,13 +178,23 @@
   width: 1440px;
   margin: 0 auto;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 
   .text {
     width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     h3 {
@@ -256,6 +286,9 @@
   height: 670px;
 
   .content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 
     .text {
@@ -277,6 +310,9 @@
 }
 
 .content4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 
   .text {
@@ -346,8 +382,14 @@
       width: 1440px;
       height: 100%;
       margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
 
       h1 {
@@ -367,8 +409,14 @@
           width: 230px;
           height: 70px;
           line-height: 70px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           border: none;
           border-radius: 40px;
@@ -419,6 +467,9 @@
     height: 670px;
 
     .content {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
 
       .text {
@@ -499,8 +550,14 @@
       width: 1440px;
       height: 100%;
       margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
 
       h1 {
@@ -520,8 +577,14 @@
           width: 230px;
           height: 70px;
           line-height: 70px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           border: none;
           border-radius: 40px;

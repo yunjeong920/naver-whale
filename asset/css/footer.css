@@ -23,7 +23,11 @@ footer .footer nav {
   margin: 0 auto;
   height: 40px;
   line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -31,8 +35,12 @@ footer .footer nav ul {
   width: 100%;
   margin-top: 50px;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-content: space-around;
+  -webkit-box-lines: multiple;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -46,8 +54,14 @@ footer .footer nav ul p {
   border-radius: 5px;
   height: 55px;
   line-height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 

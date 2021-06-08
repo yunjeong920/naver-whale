@@ -68,6 +68,7 @@
           flex: 50%;
           flex-wrap: nowrap;
           white-space: nowrap;
+          padding-left: 50px;
           h2{
             color: #222;
             margin: 15px 0;
@@ -95,9 +96,10 @@
     }
   }
   .space-box{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 150px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -199,6 +201,7 @@
         display: flex;
         align-items: center;
         li{
+          cursor: pointer;
           height: 20px;
           line-height: 20px;
           padding-right: 10px;
@@ -206,6 +209,7 @@
         }
       }
       .foot-icon{
+        cursor: pointer;
         display: flex;
         .foot-txt{
           display: flex;

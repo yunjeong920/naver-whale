@@ -269,6 +269,19 @@
     max-width: 1200px;
     width: 100%
   }
+  .help-qna{
+    .qna-wrap{
+      justify-content: flex-start;
+      .left{
+        border-right: 0;
+      }
+    }
+  }
+  .space-wrap{
+    .space-box{
+      max-width: 900px;
+    }
+  }
 }
 
 @media screen and ( max-width: 980px ) {
@@ -756,6 +769,45 @@
   .up-wrap{
     min-height: 700px;
   }
+  .help-main{
+    background-size: auto;
+  }
+  .help-qna{
+    .qna-wrap{
+      max-width: 980px;
+      flex-direction: column;
+    }
+  }
+  .footer-wrap{
+    .foot2-wrap{
+      max-width: 980px;
+      border-top: 0;
+      padding: 0;
+      margin: 0;
+      .foot-info2{
+        max-width: 980px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        .info2{
+          padding-bottom: 20px;
+          li{
+            padding-right: 30px;
+            &:last-child{
+              padding-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and ( max-width: 920px ) {
+  .space-wrap{
+    .space-box{
+      max-width: 600px;
+    }
+  }
 }
 
 @media screen and ( max-width: 770px ) {
@@ -1172,11 +1224,66 @@
       }
     }
   }
+  .help-list{
+    .list{
+      max-width: 690px;
+    }
+  }
   .news-wrap{
     max-width: 770px;
   }
   .news-title{
     max-width: 770px;
+  }
+  .more-wrap{
+    .more{
+      max-width: 770px;
+      width: 100%;
+      flex-direction: column;
+      .img{
+
+      }
+    }
+    .text{
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+  .space-wrap{
+    .space-cont{
+      .content{
+        height: auto;
+        .inner{
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 50px;
+        }
+      }
+    }
+  }
+  .space-wrap{
+    .space-box{
+      max-width: 600px;
+    }
+  }
+  .footer-wrap{
+    .foot2-wrap{
+      .foot-info2{
+        .info2{
+          li{
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and ( max-width: 620px ) {
+  .space-wrap{
+    .space-box{
+      max-width: 300px;
+    }
   }
 }
 
@@ -1587,5 +1694,29 @@
   }
   .guide-main{
     background-size: contain;
+  }
+  .help-main{
+    background-position: left center;
+  }
+  .help-list{
+    .list{
+      max-width: 460px;
+    }
+  }
+  .space-wrap{
+    .space-cont{
+      .content{
+        .inner{
+          .cont-text{
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+  .space-wrap{
+    .space-box{
+      max-width: 300px;
+    }
   }
 }

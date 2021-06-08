@@ -352,6 +352,10 @@
   margin: 0 auto;
 }
 
+* {
+  white-space: nowrap;
+}
+
 section {
   width: 100%;
   height: 100vh;
@@ -382,6 +386,10 @@ section {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+#first .first-wrap .first-box .left .fs-46 {
+  white-space: nowrap;
 }
 
 #first .first-wrap .first-box .left h1, #first .first-wrap .first-box .left p {

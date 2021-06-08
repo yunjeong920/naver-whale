@@ -3,6 +3,9 @@
   height: 100vh;
   margin: 0 auto;
 }
+*{
+  white-space: nowrap;
+}
 
 section{
   width: 100%;
@@ -31,6 +34,9 @@ section{
       flex-wrap: nowrap;
       align-items: center;
       .left{
+        .fs-46{
+          white-space: nowrap;
+        }
         h1, p{
           color: #222;
         }

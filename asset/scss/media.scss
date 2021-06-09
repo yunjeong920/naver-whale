@@ -342,7 +342,7 @@
     .mheader{
       .logo{
         img{
-          max-width: 120px;
+          max-width: 140px;
           height: auto;
         }
       }
@@ -1488,6 +1488,16 @@
       margin-top: 50px;
     }
   }
+  .mheader-wrap{
+    .sidebar_menu{
+      .close_btn{
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
   .space-wrap{
     .space-cont{
       .content{
@@ -1507,6 +1517,26 @@
   .space-wrap{
     .space-box{
       max-width: 600px;
+    }
+  }
+  footer{
+    .footer{
+      nav{
+        ul{
+          p{
+            padding: 3px 7px;
+            height: 40px;
+            line-height: 40px;
+            span{
+              width: 30px;
+              img{
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+        }
+      }
     }
   }
   .footer-wrap{
@@ -2063,12 +2093,28 @@
       }
     }
   }
+  .help-qna{
+    h3{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .qna-wrap{
+      line-height: 40px;
+    }
+    li{
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
   .more-wrap{
     .more{
       .text{
         width: 350px;
       }
     }
+  }
+  .up-wrap{
+    padding: 20px;
   }
   .update-box{
     max-width: 400px;
@@ -2088,7 +2134,7 @@
     }
   }
   .news-wrap{
-    padding: 30px;
+    padding: 20px;
     max-width: 400px;
     .text-right{
       max-width: 350px;
@@ -2109,6 +2155,123 @@
   .space-wrap{
     .space-box{
       max-width: 300px;
+    }
+  }
+}
+
+@media screen and ( max-width: 380px ) {
+  #main-wrap{
+    .main{
+      max-width: 380px;
+      padding: 20px;
+    }
+  }
+  #sns-wrap{
+    .sns{
+      .sns-icon{
+        a{
+          img{
+            max-width: 35px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #tab-1{
+    .main{
+      padding: 20px;
+      .main-text{
+        max-width: 350px;
+      }
+    }
+  }
+  .content, .content3, .content4, .content5{
+    max-width: 360px;
+  }
+  #tab-2{
+    .main{
+      padding: 20px;
+      .main-text{
+        max-width: 350px;
+      }
+    }
+    .inner{
+      .content{
+        .img{
+          img{
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .img{
+    margin-top: 20px;
+    max-width: 330px;
+    img{
+      width: 300px;
+    }
+  }
+  #tab-3{
+    .main{
+      padding: 20px;
+      .main-text{
+        max-width: 350px;
+      }
+    }
+  }
+  .up-wrap{
+    padding: 20px;
+  }
+  .news-text{
+    .text-left{
+      li{
+        max-width: 330px;
+      }
+    }
+  }
+  .news-text{
+    .text-right{
+      li{
+        max-width: 330px;
+      }
+    }
+  }
+  .help-qna{
+    h3{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .qna-wrap{
+      line-height: 40px;
+    }
+    li{
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .wh380{
+    display: none;
+  }
+  .space-wrap{
+    word-break: keep-all;
+    white-space: none;
+    .space-cont{
+      .content{
+        .inner{
+          white-space: none;
+          padding: 0px;
+          .cont-img{
+            margin-top: 50px;
+          }
+          .cont-text{
+            p{
+              white-space: inital;
+            }
+          }
+        }
+      }
     }
   }
 }

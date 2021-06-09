@@ -5,6 +5,7 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
     .space-text{
       max-width: 1440px;
       width: 100%;
@@ -81,7 +82,7 @@
           -webkit-box-lines: single;
           -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
-          white-space: nowrap;
+          word-break: keep-all;
           padding-left: 50px;
           h2{
             color: #222;

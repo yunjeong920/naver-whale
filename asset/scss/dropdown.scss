@@ -180,7 +180,7 @@
     .logo{
       margin-left: 50px;
       img{
-        max-width: 120px;
+        max-width: 150px;
         width: 100%;
         height: auto;
       }
@@ -268,7 +268,7 @@
       .more1,.more2,.more3,.more4,.more5{
         display: table;
         width: 100%;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #b0d1fa;
         ul{
           text-align: left;
           li{
@@ -277,6 +277,9 @@
             .fs-16{
               color: #666;
               height: 30px;
+            }
+            &:last-child{
+              margin-bottom: 15px;
             }
           }
         }
@@ -288,6 +291,7 @@
           right: 10%;
           margin-top: 15px;
           cursor: pointer;
+          transition: transform .3s;
           img{
             width: 20px;
             height: auto;
@@ -315,16 +319,16 @@
   }
 }
 
-@media screen and ( max-width: 520px ) {
+@media screen and ( max-width: 580px ) {
   .mheader-wrap{
     .sidebar_menu{
       display: none;
-      width: 65%;
+      width: 70%;
       height: 100%;
       background: #DCF4FF;
       position: absolute;
       top: 0;
-      right: -65%;
+      right: -70%;
     }
   }
 }

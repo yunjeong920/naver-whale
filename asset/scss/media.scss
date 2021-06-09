@@ -2044,8 +2044,14 @@
   }
   .help-list{
     .list{
-      max-width: 460px;
+      max-width: 400px;
+      li{
+        min-width: 199px;
+      }
     }
+  }
+  .help-qna{
+    padding: 30px;
   }
   .more-wrap{
     .more{
@@ -2054,6 +2060,31 @@
       }
     }
   }
+  .update-box{
+    max-width: 400px;
+    .box{
+      ul{
+        li{
+          max-width: 380px;
+          height: 130px;
+          .inner{
+            .iconbg{
+              width: 130px;
+              height: 130px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .news-wrap{
+    padding: 30px;
+    max-width: 400px;
+    .text-right{
+      max-width: 350px;
+    }
+  }
+
   .space-wrap{
     .space-cont{
       .content{

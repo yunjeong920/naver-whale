@@ -2259,6 +2259,7 @@ footer .footer nav ul p:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-wrap .foot2-wrap .foot-info2 .info2 li {
@@ -4160,10 +4161,34 @@ footer .footer nav ul p:hover {
     background-position: left center;
   }
   .help-list .list {
-    max-width: 460px;
+    max-width: 400px;
+  }
+  .help-list .list li {
+    min-width: 199px;
+  }
+  .help-qna {
+    padding: 30px;
   }
   .more-wrap .more .text {
     width: 350px;
+  }
+  .update-box {
+    max-width: 400px;
+  }
+  .update-box .box ul li {
+    max-width: 380px;
+    height: 130px;
+  }
+  .update-box .box ul li .inner .iconbg {
+    width: 130px;
+    height: 130px;
+  }
+  .news-wrap {
+    padding: 30px;
+    max-width: 400px;
+  }
+  .news-wrap .text-right {
+    max-width: 350px;
   }
   .space-wrap .space-cont .content .inner .cont-text {
     padding-left: 0;

@@ -2044,14 +2044,24 @@
   }
   .help-list{
     .list{
-      max-width: 400px;
+      max-width: 380px;
       li{
-        min-width: 199px;
+        min-width: 190px;
       }
     }
   }
   .help-qna{
     padding: 30px;
+    .qna-wrap{
+      max-width: 380px;
+      .left{
+        padding-right: 0;
+        max-width: 380px;
+      }
+      .right{
+        max-width: 380px;
+      }
+    }
   }
   .more-wrap{
     .more{

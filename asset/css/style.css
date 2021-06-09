@@ -4161,13 +4161,23 @@ footer .footer nav ul p:hover {
     background-position: left center;
   }
   .help-list .list {
-    max-width: 400px;
+    max-width: 380px;
   }
   .help-list .list li {
-    min-width: 199px;
+    min-width: 190px;
   }
   .help-qna {
     padding: 30px;
+  }
+  .help-qna .qna-wrap {
+    max-width: 380px;
+  }
+  .help-qna .qna-wrap .left {
+    padding-right: 0;
+    max-width: 380px;
+  }
+  .help-qna .qna-wrap .right {
+    max-width: 380px;
   }
   .more-wrap .more .text {
     width: 350px;

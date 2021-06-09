@@ -204,7 +204,7 @@
 }
 
 .mheader-wrap .mheader .logo img {
-  max-width: 170px;
+  max-width: 120px;
   width: 100%;
   height: auto;
 }
@@ -579,7 +579,7 @@ section {
 }
 
 #second .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif, #third .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif, #fourth .section-wrap .swiper-container .swiper-wrapper .swiper-slide .gif {
-  min-width: 400px;
+  max-width: 600px;
   position: relative;
   padding: 40px;
   margin-right: 50px;
@@ -2617,6 +2617,10 @@ footer .footer nav ul p:hover {
   .mobile {
     display: block;
   }
+  .mheader-wrap .mheader .logo img {
+    max-width: 120px;
+    height: auto;
+  }
   .first {
     width: 100%;
     height: 100vh;
@@ -3647,6 +3651,9 @@ footer .footer nav ul p:hover {
     max-width: 770px;
     justify-content: center;
   }
+  .help-qna .qna-wrap {
+    max-width: 700px;
+  }
   .help-list .list {
     max-width: 690px;
   }
@@ -3796,7 +3803,8 @@ footer .footer nav ul p:hover {
     height: 100px;
   }
   #five .five-gif img {
-    width: 500px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
   }
   #five .btn {
@@ -3834,6 +3842,11 @@ footer .footer nav ul p:hover {
   #five .btn button a {
     color: #fff;
   }
+  #sns-wrap .sns .sns-icon a img {
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+  }
   #tab-1 {
     max-width: 520px;
     width: 100%;
@@ -3844,7 +3857,7 @@ footer .footer nav ul p:hover {
     height: 350px;
   }
   #tab-1 .main .main-text {
-    max-width: 450px;
+    max-width: 400px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -3863,7 +3876,7 @@ footer .footer nav ul p:hover {
     margin: 0;
   }
   #tab-1 .main .main-text .btn {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   #tab-1 .main .main-text .btn button {
     width: 180px;
@@ -3905,7 +3918,7 @@ footer .footer nav ul p:hover {
   .content3,
   .content4,
   .content5 {
-    width: 450px;
+    width: 400px;
     padding: 20px;
     margin: 0 auto;
     height: 100%;
@@ -3926,7 +3939,7 @@ footer .footer nav ul p:hover {
   .content3 .text,
   .content4 .text,
   .content5 .text {
-    max-width: 450px;
+    max-width: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3968,7 +3981,7 @@ footer .footer nav ul p:hover {
     height: auto;
   }
   .img img {
-    max-width: 450px;
+    max-width: 350px;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -4000,7 +4013,7 @@ footer .footer nav ul p:hover {
     height: 350px;
   }
   #tab-2 .main .main-text {
-    width: 500px;
+    width: 400px;
     height: 100%;
     margin: 0 auto;
     display: -webkit-box;
@@ -4012,12 +4025,13 @@ footer .footer nav ul p:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding: 0;
   }
   #tab-2 .main .main-text p {
     margin: 0;
   }
   #tab-2 .main .main-text .btn {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   #tab-2 .main .main-text .btn button {
     width: 180px;
@@ -4088,7 +4102,7 @@ footer .footer nav ul p:hover {
     height: 350px;
   }
   #tab-3 .main .main-text {
-    width: 500px;
+    width: 400px;
     height: 100%;
     margin: 0 auto;
     display: -webkit-box;
@@ -4100,12 +4114,13 @@ footer .footer nav ul p:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding: 0;
   }
   #tab-3 .main .main-text p {
     margin: 0;
   }
   #tab-3 .main .main-text .btn {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   #tab-3 .main .main-text .btn button {
     width: 180px;
@@ -4138,11 +4153,17 @@ footer .footer nav ul p:hover {
   .guide-main {
     background-size: contain;
   }
+  .help-qna .qna-wrap {
+    max-width: 400px;
+  }
   .help-main {
     background-position: left center;
   }
   .help-list .list {
     max-width: 460px;
+  }
+  .more-wrap .more .text {
+    width: 350px;
   }
   .space-wrap .space-cont .content .inner .cont-text {
     padding-left: 0;

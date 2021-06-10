@@ -295,6 +295,9 @@
           img{
             width: 20px;
             height: auto;
+            :hover{
+              transform: rotate(180deg);
+            }
           }
         }
       }

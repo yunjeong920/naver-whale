@@ -42,8 +42,10 @@ $(document).ready(function() {
   $("#spreadBtn01").click(function() {
     if ($("#hiddenList01").is(":visible")) {
       $("#hiddenList01").slideUp();
+      $("#spreadBtn01").css("transform","rotate(0deg)")
     } else {
       $("#hiddenList01").slideDown();
+      $("#spreadBtn01").css("transform","rotate(180deg)")
     }
   });
 });
@@ -52,8 +54,10 @@ $(document).ready(function() {
   $("#spreadBtn02").click(function() {
     if ($("#hiddenList02").is(":visible")) {
       $("#hiddenList02").slideUp();
+      $("#spreadBtn02").css("transform","rotate(0deg)")
     } else {
       $("#hiddenList02").slideDown();
+      $("#spreadBtn02").css("transform","rotate(180deg)")
     }
   });
 });
@@ -62,8 +66,10 @@ $(document).ready(function() {
   $("#spreadBtn03").click(function() {
     if ($("#hiddenList03").is(":visible")) {
       $("#hiddenList03").slideUp();
+      $("#spreadBtn03").css("transform","rotate(0deg)")
     } else {
       $("#hiddenList03").slideDown();
+      $("#spreadBtn03").css("transform","rotate(180deg)")
     }
   });
 });
@@ -72,8 +78,10 @@ $(document).ready(function() {
   $("#spreadBtn04").click(function() {
     if ($("#hiddenList04").is(":visible")) {
       $("#hiddenList04").slideUp();
+      $("#spreadBtn04").css("transform","rotate(0deg)")
     } else {
       $("#hiddenList04").slideDown();
+      $("#spreadBtn04").css("transform","rotate(180deg)")
     }
   });
 });
@@ -82,8 +90,10 @@ $(document).ready(function() {
   $("#spreadBtn05").click(function() {
     if ($("#hiddenList05").is(":visible")) {
       $("#hiddenList05").slideUp();
+      $("#spreadBtn05").css("transform","rotate(0deg)")
     } else {
       $("#hiddenList05").slideDown();
+      $("#spreadBtn05").css("transform","rotate(180deg)")
     }
   });
 });

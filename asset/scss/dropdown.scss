@@ -268,7 +268,8 @@
       .more1,.more2,.more3,.more4,.more5{
         display: table;
         width: 100%;
-        border-bottom: 1px solid #b0d1fa;
+        border-bottom: 1px solid rgba(175, 209, 250, 0.5);
+        position: relative;
         ul{
           text-align: left;
           li{
@@ -288,16 +289,13 @@
           background: none;
           display: inline-block;
           position: absolute;
-          right: 10%;
-          margin-top: 15px;
+          right: 5%;
+          margin-top: 17px;
           cursor: pointer;
           transition: transform .3s;
           img{
             width: 20px;
             height: auto;
-            :hover{
-              transform: rotate(180deg);
-            }
           }
         }
       }
